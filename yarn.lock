@@ -1544,12 +1544,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.10.3, @babel/runtime@npm:^7.10.4, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.20.13, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.7, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.10.3, @babel/runtime@npm:^7.10.4, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.7, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
   version: 7.21.0
   resolution: "@babel/runtime@npm:7.21.0"
   dependencies:
     regenerator-runtime: ^0.13.11
   checksum: 7b33e25bfa9e0e1b9e8828bb61b2d32bdd46b41b07ba7cb43319ad08efc6fda8eb89445193e67d6541814627df0ca59122c0ea795e412b99c5183a0540d338ab
+  languageName: node
+  linkType: hard
+
+"@babel/runtime@npm:^7.27.0":
+  version: 7.27.0
+  resolution: "@babel/runtime@npm:7.27.0"
+  dependencies:
+    regenerator-runtime: ^0.14.0
+  checksum: 3e73d9e65f76fad8f99802b5364c941f4a60c693b3eca66147bb0bfa54cf0fbe017232155e16e3fd83c0a049b51b8d7239efbd73626534abe8b54a6dd57dcb1b
   languageName: node
   linkType: hard
 
@@ -2511,6 +2520,51 @@ __metadata:
   checksum: 9d3c40d225e139987b50c48988f8717a54a8c994d8a948ee42e1412e08988761d0754d7d10b803061cc3aebf35f92a5dbbab493bd0e1a9ef9e89a2130e83ba34
   languageName: node
   linkType: hard
+
+"@lehuyquanganh/react-textarea-autosize@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@lehuyquanganh/react-textarea-autosize@workspace:."
+  dependencies:
+    "@babel/core": ^7.21.3
+    "@babel/plugin-proposal-object-rest-spread": ^7.20.7
+    "@babel/plugin-transform-runtime": ^7.21.0
+    "@babel/preset-env": ^7.20.2
+    "@babel/preset-react": ^7.18.6
+    "@babel/preset-typescript": ^7.21.0
+    "@babel/runtime": ^7.27.0
+    "@changesets/changelog-github": ^0.4.4
+    "@changesets/cli": ^2.22.0
+    "@preconstruct/cli": ^2.8.1
+    "@testing-library/jest-dom": ^5.16.5
+    "@testing-library/react": ^10.4.9
+    "@types/react": ^18
+    "@types/react-dom": ^18
+    "@typescript-eslint/eslint-plugin": ^5.51.0
+    "@typescript-eslint/parser": ^5.51.0
+    "@vitejs/plugin-react": ^4.3.4
+    babel-eslint: 11.0.0-beta.2
+    bytes: ^3.1.0
+    cross-env: ^7.0.2
+    eslint: ^8.33.0
+    eslint-config-prettier: ^8.6.0
+    eslint-plugin-prettier: ^4.2.1
+    eslint-plugin-react: ^7.32.2
+    husky: ^4.2.5
+    jest: ^29.4.2
+    jest-environment-jsdom: ^29.4.2
+    lint-staged: ^10.2.8
+    prettier: ^2.8.4
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    rimraf: ^3.0.2
+    typescript: ^5.1.3
+    use-composed-ref: ^1.3.0
+    use-latest: ^1.2.1
+    vite: ^6.0.7
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  languageName: unknown
+  linkType: soft
 
 "@manypkg/find-root@npm:^1.1.0":
   version: 1.1.0
@@ -8633,51 +8687,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-textarea-autosize@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-textarea-autosize@workspace:."
-  dependencies:
-    "@babel/core": ^7.21.3
-    "@babel/plugin-proposal-object-rest-spread": ^7.20.7
-    "@babel/plugin-transform-runtime": ^7.21.0
-    "@babel/preset-env": ^7.20.2
-    "@babel/preset-react": ^7.18.6
-    "@babel/preset-typescript": ^7.21.0
-    "@babel/runtime": ^7.20.13
-    "@changesets/changelog-github": ^0.4.4
-    "@changesets/cli": ^2.22.0
-    "@preconstruct/cli": ^2.8.1
-    "@testing-library/jest-dom": ^5.16.5
-    "@testing-library/react": ^10.4.9
-    "@types/react": ^18
-    "@types/react-dom": ^18
-    "@typescript-eslint/eslint-plugin": ^5.51.0
-    "@typescript-eslint/parser": ^5.51.0
-    "@vitejs/plugin-react": ^4.3.4
-    babel-eslint: 11.0.0-beta.2
-    bytes: ^3.1.0
-    cross-env: ^7.0.2
-    eslint: ^8.33.0
-    eslint-config-prettier: ^8.6.0
-    eslint-plugin-prettier: ^4.2.1
-    eslint-plugin-react: ^7.32.2
-    husky: ^4.2.5
-    jest: ^29.4.2
-    jest-environment-jsdom: ^29.4.2
-    lint-staged: ^10.2.8
-    prettier: ^2.8.4
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    rimraf: ^3.0.2
-    typescript: ^5.1.3
-    use-composed-ref: ^1.3.0
-    use-latest: ^1.2.1
-    vite: ^6.0.7
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-  languageName: unknown
-  linkType: soft
-
 "react@npm:^18.2.0":
   version: 18.3.1
   resolution: "react@npm:18.3.1"
@@ -8763,6 +8772,13 @@ __metadata:
   version: 0.13.11
   resolution: "regenerator-runtime@npm:0.13.11"
   checksum: 27481628d22a1c4e3ff551096a683b424242a216fee44685467307f14d58020af1e19660bf2e26064de946bad7eff28950eae9f8209d55723e2d9351e632bbb4
+  languageName: node
+  linkType: hard
+
+"regenerator-runtime@npm:^0.14.0":
+  version: 0.14.1
+  resolution: "regenerator-runtime@npm:0.14.1"
+  checksum: 9f57c93277b5585d3c83b0cf76be47b473ae8c6d9142a46ce8b0291a04bb2cf902059f0f8445dcabb3fb7378e5fe4bb4ea1e008876343d42e46d3b484534ce38
   languageName: node
   linkType: hard
 
